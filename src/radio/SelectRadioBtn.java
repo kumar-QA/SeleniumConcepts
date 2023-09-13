@@ -10,12 +10,11 @@ public class SelectRadioBtn {
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://nxtgenaiacademy.com/demo-site");
-WebElement	maleradioBtn=driver.findElement(By.id("vfb-31-1"));
-      maleradioBtn.click();
+WebElement	radioBtn=driver.findElement(By.id("vfb-31-6"));
+      radioBtn.click();
 	
-	int  a=10;
 	
-		 if(maleradioBtn.isSelected()) {
+		 if(radioBtn.isSelected()) {
 			 System.out.println("option is selected");
 		 }else {
 			 System.out.println("Not selected");
